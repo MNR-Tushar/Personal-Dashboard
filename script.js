@@ -48,3 +48,20 @@ function displaynote()
     area.textContent=note;
 }
 displaynote();
+
+
+function contactInfo()
+{
+    document.getElementById("contactform").addEventListener("submit",(event)=>{
+        event.preventDefault();
+        const formdata=new FormData(event.target);
+        const entries =[...formdata.entries()].reduce((acc,[k,v])=>{
+            acc[k]=v;
+            return acc;
+        },{});
+    
+        alert(`Thanks ${entries.name}, We recieved your message!`);
+    });
+}
+contactInfo();
+
