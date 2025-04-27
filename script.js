@@ -21,3 +21,15 @@ fetch("http://api.weatherapi.com/v1/current.json?key=f7b41d9fdf4c436aa7a19263325
     const w=document.getElementById("setweather");
     w.textContent="Please given proper country name or loacation";
 });
+
+function TodoList()
+{
+    const input=document.getElementById("todoInput");
+    const list=document.getElementById("todolist");
+    const li=document.createElement("li");
+
+    li.textContent=input.value;
+    li.addEventListener("click",()=>li.remove());
+    list.appendChild(li);
+
+}
