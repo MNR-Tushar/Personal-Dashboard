@@ -33,3 +33,18 @@ function TodoList()
     list.appendChild(li);
 
 }
+
+function savenote()
+{
+    const note=document.getElementById("noteInput").value;
+    localStorage.setItem("note",note);
+    displaynote();
+}
+
+function displaynote()
+{
+    const note=localStorage.getItem("note");
+    const area= document.getElementById("notedisplay");
+    area.textContent=note;
+}
+displaynote();
