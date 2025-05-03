@@ -13,7 +13,7 @@ setInterval(updateclock);
 
 function weatherInfo()
 {
-    fetch("http://api.weatherapi.com/v1/current.json?key=f7b41d9fdf4c436aa7a192633252504&q=Dhaka")
+    fetch("https://api.weatherapi.com/v1/current.json?key=f7b41d9fdf4c436aa7a192633252504&q=Dhaka")
     .then((res)=>res.json())
     .then((data)=>{
         const w=document.getElementById("setweather");
