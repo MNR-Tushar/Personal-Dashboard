@@ -51,3 +51,12 @@ You can simply clone the repository and open `index.html` in any modern browser.
 git clone https://github.com/MNR-Tushar/Personal-Dashboard.git
 cd Personal-Dashboard
 open index.html
+```
+---
+### 🤝 Contributing
+Contributions are welcome! If you'd like to improve this dashboard, feel free to fork the repo and submit a pull request.
+
+---
+### 📄 License
+This project is open source and available under the MIT License.
+
