@@ -22,7 +22,7 @@ A clean, minimal, and customizable **Personal Dashboard** built using **HTML, CS
 ## 📸 Screenshots
 
 ![Dashboard Preview](screenshot.png)  
-*(Add your own screenshot in the repo named `screenshot.png` for display)*
+
 
 ---
 
